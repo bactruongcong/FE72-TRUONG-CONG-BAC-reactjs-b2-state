@@ -24,7 +24,7 @@ body{
     margin: 0 auto;
     background-color: transparent;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-wrap: wrap;
     width: 70%;
 }
@@ -35,8 +35,8 @@ body{
     margin-top: 10px;
 }
 .item{
-    width: 100px;
-    height: 100px;
+    min-width: 10%;
+    min-height: 10%;
     display: flex;
     align-items: center;
     margin-right: 5px;
@@ -49,17 +49,18 @@ body{
 }
 .model img{
     border: 1px solid black;
-    width: 200px;
+    width: 70%;
 }
 .modelglass{
     position: absolute;
     z-index: 1;
-    top: 50px;
-    left: 190px;
+    top: 25%;
+    left: 20%;
+    right: 20%;
   
 }
 .modelglass img{
     border: none;
-    width: 130px;
+    width: 70%;
     opacity: 0.9;
 }
